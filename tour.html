@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GetTourGuide</title>
+  </head>
+  <body class="bg-white w-100 mx-auto text-[#1a2b49]">
+    <header
+      class="w-full p-3 mx-auto bg-blue-400 text-[#1a2b49] flex items-center space-x-3 h-200"
+    >
+      <div class="h-full w-1/12 mr-12">
+        <img
+          href="#"
+          class="w-full bg-center bg-cover h-12"
+          src="https://cdn.getyourguide.com/tf/assets/static/logos/gyg-logo-white.svg
+          "
+        />
+      </div>
+
+      <div
+        class="bg-[#fff] p-2 rounded-full h-14 w-5/12 md:w-100 justify-end flex"
+      >
+        <input
+          type="text"
+          name="search"
+          class="rounded text-[#47546d] text-xl font-bold outline-none flex-2 w-10/12 h-10 pl-2 placeholder-gray-500"
+          placeholder="Where are you going? "
+        />
+        <button
+          type="submit"
+          class="bg-[#0071EB] px-6 text-white ml-2 rounded-3xl font-bold hover:bg-[#304C84] transition hover:duration-300"
+        >
+          Search
+        </button>
+      </div>
+      <nav>
+        <ul
+          class="flex space-x-4 font-bold brightness-200 contrast-200 text-gray-50 md:d"
+        >
+          <li>
+            English
+            <span>v</span>
+          </li>
+          <li>Eur <span>($)</span></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- All sections -->
+    <div class="container mx-auto flex flex-col gap-4 mt-10">
+      <!-- France le-de-France Things to do in Paris -->
+      <div class="">
+        <span>France</span>
+        <span> > </span>
+        <span> le-de-France </span>
+        <span> > </span>
+        <span> Things to do in Paris </span>
+      </div>
+
+      <!-- Workshop or class -->
+      <h4>Workshop or class</h4>
+      <h2 class="font-bold text-3xl my-2 text-[#1A2B49]">
+        Paris: Behind the Scenes Bakery Tour with Breakfast
+      </h2>
+
+      <!-- Food review and rating -->
+      <div class="flex gap-4">
+        <span>****</span>
+        <span>4.7 / 5</span>
+        <span class="text-[#0071EB]">478 Reviews</span>
+        <span>Activity Provider</span>
+        <span class="text-[#0071EB]"> voyages LLc</span>
+      </div>
+
+      <!-- Image containers -->
+
+      <!-- Food Description -->
+      <div class="flex justify-between gap-2 spa mb-6">
+        <div
+          class="flex mr-2 flex-col gap-4 text-[#1A2B49] w-2/3 bg-blue-400 font-bold"
+        >
+          <p>
+            Enjoy a guided tour of a French bakery in Paris and learn how to
+            bake the perfect baguette. Have breakfast with croissants and a pain
+            au chocolat, and uncover kitchen secrets from a top French baker.
+          </p>
+          <!-- About -->
+          <h3>About this activity</h3>
+
+          <!-- Section details -->
+          <section class="pl-2 flex flex-col gap-4 mb-6">
+            <div class="flex items-start justify-start">
+              <div>*</div>
+              <div>
+                <h5>Free cancellation</h5>
+                <p>Cancel up to 24 hours in advance for a full refund</p>
+              </div>
+            </div>
+            <div class="flex items-start justify-start">
+              <div>*</div>
+              <div>
+                <h5>Reserve now & pay later</h5>
+                <p>
+                  Keep your travel plans flexible — book your spot and pay
+                  nothing today.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start justify-start">
+              <div>*</div>
+              <div>
+                <h5>Small group</h5>
+                <p>Limited to 9 participants</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Checking Availability -->
+          <form
+            action="#"
+            class="flex flex-col gap-4 bg-[#1A2B49] text-white p-4 mt-3"
+          >
+            <h4>Select participants, date, and language</h4>
+            <div></div>
+            <button class="bg-[#0071EB] w-full rounded-3xl text-center p-2">
+              Check Availability
+            </button>
+          </form>
+
+          <!-- Experiences -->
+          <h3>Experiences</h3>
+          <section class="w-full">
+            <section class="flex justify-start gap-24">
+              <h3>Higlights</h3>
+              <ul>
+                <li>Get behind the scenes of a real French bakery in Paris</li>
+                <li>
+                  Discover how to bake a fabulous crisp and light baguette
+                </li>
+              </ul>
+            </section>
+            <section class="flex justify-start gap-24">
+              <h3>Higlights</h3>
+              <ul>
+                <li>Get behind the scenes of a real French bakery in Paris</li>
+                <li>
+                  Discover how to bake a fabulous crisp and light baguette
+                </li>
+              </ul>
+            </section>
+          </section>
+        </div>
+        <div
+          class="flex flex-col gap-2 bg-red-400 w-1/4 justify-start items-center h-auto"
+        >
+          <div class="flex flex-col">
+            <button class="bg-red-400 p-2">Likely to sell out</button>
+            <p>From $ 90 per person</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'GT Eesti';
+  src: url('/css/GT-Eesti-Pro-Display-Light.woff2') format('woff2'),
+       url('/css/GT-Eesti-Pro-Display-Light.woff2') format('woff');
+}
+
+body {
+  font-family: 'GT Eesti', sans-serif;
+}
+
+.cardHover:hover div img {
+  transform: scale(1.2);
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+}
+
+.cardHover {
+  width: 24% !important;
+}
+.axy {
+  position: absolute !important;
+  top: 510px !important;
+  left: 80px !important
+}
+/* #scroll-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+} */
+
+/* #scroll-to-top-btn:hover {
+  background-color: #555;
+} */
